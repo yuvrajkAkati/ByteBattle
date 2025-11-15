@@ -1,0 +1,187 @@
+[
+  {
+    "_id": "1",
+    "question": "Which algorithm design technique is used in Prim’s Minimum Spanning Tree?",
+    "options": ["Dynamic Programming", "Greedy Algorithm", "Divide and Conquer", "Backtracking"],
+    "answer": "Greedy Algorithm"
+  },
+  {
+    "_id": "2",
+    "question": "Time complexity of binary search is:",
+    "options": ["O(n)", "O(n log n)", "O(log n)", "O(1)"],
+    "answer": "O(log n)"
+  },
+  {
+    "_id": "3",
+    "question": "Which data structure is used in Breadth First Search (BFS)?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue"
+  },
+  {
+    "_id": "4",
+    "question": "Which sorting algorithm is stable?",
+    "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Selection Sort"],
+    "answer": "Merge Sort"
+  },
+  {
+    "_id": "5",
+    "question": "DFS traversal complexity for a graph with V vertices and E edges is:",
+    "options": ["O(V)", "O(E)", "O(V+E)", "O(V²)"],
+    "answer": "O(V+E)"
+  },
+  {
+    "_id": "6",
+    "question": "Which data structure is used in recursion?",
+    "options": ["Stack", "Queue", "Array", "Linked List"],
+    "answer": "Stack"
+  },
+  {
+    "_id": "7",
+    "question": "Which algorithm is used to find the shortest path in a weighted graph with no negative weights?",
+    "options": ["Prim’s", "Dijkstra’s", "Kruskal’s", "Bellman-Ford"],
+    "answer": "Dijkstra’s"
+  },
+  {
+    "_id": "8",
+    "question": "Which of the following is not a divide and conquer algorithm?",
+    "options": ["Merge Sort", "Binary Search", "Quick Sort", "Prim’s Algorithm"],
+    "answer": "Prim’s Algorithm"
+  },
+  {
+    "_id": "9",
+    "question": "What is the space complexity of Merge Sort?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+    "answer": "O(n)"
+  },
+  {
+    "_id": "10",
+    "question": "In a max-heap, every parent node has a value:",
+    "options": ["Greater than or equal to its children", "Smaller than its children", "Equal to root", "None of these"],
+    "answer": "Greater than or equal to its children"
+  },
+  {
+    "_id": "11",
+    "question": "Which traversal method is used to get a sorted sequence from a Binary Search Tree?",
+    "options": ["Preorder", "Inorder", "Postorder", "Level Order"],
+    "answer": "Inorder"
+  },
+  {
+    "_id": "12",
+    "question": "The worst-case time complexity of Quick Sort is:",
+    "options": ["O(n log n)", "O(n²)", "O(n)", "O(log n)"],
+    "answer": "O(n²)"
+  },
+  {
+    "_id": "13",
+    "question": "Which of the following is used to detect a cycle in a graph?",
+    "options": ["BFS", "DFS", "Heap", "Stack"],
+    "answer": "DFS"
+  },
+  {
+    "_id": "14",
+    "question": "What is the auxiliary space complexity of iterative binary search?",
+    "options": ["O(n)", "O(1)", "O(log n)", "O(n log n)"],
+    "answer": "O(1)"
+  },
+  {
+    "_id": "15",
+    "question": "Which data structure provides the fastest lookup in average case?",
+    "options": ["Array", "Linked List", "Hash Table", "Binary Tree"],
+    "answer": "Hash Table"
+  },
+  {
+    "_id": "16",
+    "question": "Which of the following is a non-linear data structure?",
+    "options": ["Array", "Stack", "Queue", "Tree"],
+    "answer": "Tree"
+  },
+  {
+    "_id": "17",
+    "question": "What is the maximum number of edges in a simple undirected graph with N vertices?",
+    "options": ["N²", "N(N-1)", "N(N-1)/2", "2N"],
+    "answer": "N(N-1)/2"
+  },
+  {
+    "_id": "18",
+    "question": "Which traversal of a binary tree uses a queue?",
+    "options": ["Preorder", "Inorder", "Postorder", "Level Order"],
+    "answer": "Level Order"
+  },
+  {
+    "_id": "19",
+    "question": "In which case does a hash table experience collisions?",
+    "options": ["Two keys have same hash value", "All keys are unique", "Load factor is 0", "Hash function is injective"],
+    "answer": "Two keys have same hash value"
+  },
+  {
+    "_id": "20",
+    "question": "Which of the following algorithms can detect negative weight cycles?",
+    "options": ["Dijkstra", "Kruskal", "Bellman-Ford", "Prim"],
+    "answer": "Bellman-Ford"
+  },
+  {
+    "_id": "21",
+    "question": "Which operation is not possible in a queue?",
+    "options": ["Insertion at front", "Insertion at rear", "Deletion from front", "Traversal"],
+    "answer": "Insertion at front"
+  },
+  {
+    "_id": "22",
+    "question": "In which traversal of a binary tree are the left and right subtrees visited before the root?",
+    "options": ["Inorder", "Preorder", "Postorder", "Level Order"],
+    "answer": "Postorder"
+  },
+  {
+    "_id": "23",
+    "question": "Which data structure is used to evaluate a postfix expression?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Stack"
+  },
+  {
+    "_id": "24",
+    "question": "Which of the following is true about adjacency matrix representation of a graph?",
+    "options": [
+      "Takes O(V+E) space",
+      "Takes O(V²) space",
+      "Cannot represent directed graphs",
+      "Efficient for sparse graphs"
+    ],
+    "answer": "Takes O(V²) space"
+  },
+  {
+    "_id": "25",
+    "question": "Which algorithm is best for finding Minimum Spanning Tree if the graph is dense?",
+    "options": ["Kruskal’s Algorithm", "Prim’s Algorithm", "Bellman-Ford", "Dijkstra’s"],
+    "answer": "Prim’s Algorithm"
+  },
+  {
+    "_id": "26",
+    "question": "What is the time complexity of inserting an element in a binary search tree (average case)?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "answer": "O(log n)"
+  },
+  {
+    "_id": "27",
+    "question": "Which sorting algorithm always divides the list into two halves?",
+    "options": ["Quick Sort", "Heap Sort", "Merge Sort", "Selection Sort"],
+    "answer": "Merge Sort"
+  },
+  {
+    "_id": "28",
+    "question": "Which of the following is a characteristic of a greedy algorithm?",
+    "options": ["Global optimization", "Dynamic choices", "Local optimization", "Recursive calls"],
+    "answer": "Local optimization"
+  },
+  {
+    "_id": "29",
+    "question": "Which of these data structures is best suited for implementing undo operations?",
+    "options": ["Queue", "Array", "Stack", "Heap"],
+    "answer": "Stack"
+  },
+  {
+    "_id": "30",
+    "question": "Which of the following trees is a height-balanced binary tree?",
+    "options": ["Binary Search Tree", "AVL Tree", "Threaded Tree", "Expression Tree"],
+    "answer": "AVL Tree"
+  }
+]
