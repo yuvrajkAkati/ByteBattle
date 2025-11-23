@@ -183,7 +183,7 @@ export default function RegisterPage() {
   ---------------------------------------- */
   if (myRegistration) {
     return (
-      <div className="flex flex-col min-h-screen bg-[#16163F] text-white">
+      <div className="flex flex-col min-h-screen text-white">
         <GridBackground />
         <Navbar />
 

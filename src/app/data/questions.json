@@ -1,187 +1,182 @@
 [
   {
     "_id": "1",
-    "question": "Which algorithm design technique is used in Prim’s Minimum Spanning Tree?",
-    "options": ["Dynamic Programming", "Greedy Algorithm", "Divide and Conquer", "Backtracking"],
-    "answer": "Greedy Algorithm"
+    "question": "What will be the output of the following C++ code?\n\n#include <iostream>\nusing namespace std;\nint main(){\n    int x = 5;\n    cout << x++ + ++x;\n}\n",
+    "options": ["10", "11", "12", "Undefined behavior"],
+    "answer": "Undefined behavior"
   },
   {
     "_id": "2",
-    "question": "Time complexity of binary search is:",
-    "options": ["O(n)", "O(n log n)", "O(log n)", "O(1)"],
-    "answer": "O(log n)"
+    "question": "Which concept allows multiple functions with the same name but different parameters in C++?",
+    "options": ["Encapsulation", "Polymorphism", "Function Overloading", "Abstraction"],
+    "answer": "Function Overloading"
   },
   {
     "_id": "3",
-    "question": "Which data structure is used in Breadth First Search (BFS)?",
-    "options": ["Stack", "Queue", "Tree", "Graph"],
-    "answer": "Queue"
+    "question": "What will be the output of the following Python code?\n\nx = [1,2,3]\nprint(x * 2)",
+    "options": ["[2,4,6]", "[1,2,3,1,2,3]", "Error", "None"],
+    "answer": "[1,2,3,1,2,3]"
   },
   {
     "_id": "4",
-    "question": "Which sorting algorithm is stable?",
-    "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Selection Sort"],
-    "answer": "Merge Sort"
+    "question": "In Java, which of the following statements about constructors is true?",
+    "options": ["Constructors can be inherited", "Constructors cannot be overloaded", "Constructors have no return type", "Constructors must be private"],
+    "answer": "Constructors have no return type"
   },
   {
     "_id": "5",
-    "question": "DFS traversal complexity for a graph with V vertices and E edges is:",
-    "options": ["O(V)", "O(E)", "O(V+E)", "O(V²)"],
-    "answer": "O(V+E)"
+    "question": "What is the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main(){\n    int a=3, b=2;\n    cout << (a & b);\n}",
+    "options": ["1", "2", "3", "0"],
+    "answer": "2"
   },
   {
     "_id": "6",
-    "question": "Which data structure is used in recursion?",
-    "options": ["Stack", "Queue", "Array", "Linked List"],
-    "answer": "Stack"
+    "question": "In Python, what is the output of:\n\nprint(0.1 + 0.2 == 0.3)",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "False"
   },
   {
     "_id": "7",
-    "question": "Which algorithm is used to find the shortest path in a weighted graph with no negative weights?",
-    "options": ["Prim’s", "Dijkstra’s", "Kruskal’s", "Bellman-Ford"],
-    "answer": "Dijkstra’s"
+    "question": "Which OOP principle restricts direct access to object data?",
+    "options": ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+    "answer": "Encapsulation"
   },
   {
     "_id": "8",
-    "question": "Which of the following is not a divide and conquer algorithm?",
-    "options": ["Merge Sort", "Binary Search", "Quick Sort", "Prim’s Algorithm"],
-    "answer": "Prim’s Algorithm"
+    "question": "What is printed by this Java code?\n\nclass Main {\n  public static void main(String[] args) {\n    int a = 5;\n    System.out.println(a++ + ++a);\n  }\n}",
+    "options": ["11", "12", "10", "Compilation Error"],
+    "answer": "12"
   },
   {
     "_id": "9",
-    "question": "What is the space complexity of Merge Sort?",
-    "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
-    "answer": "O(n)"
+    "question": "What will be the output of this C++ code?\n\n#include <iostream>\nusing namespace std;\nint main(){\n    string s = \"hello\";\n    cout << s[0];\n}",
+    "options": ["h", "e", "hello", "Error"],
+    "answer": "h"
   },
   {
     "_id": "10",
-    "question": "In a max-heap, every parent node has a value:",
-    "options": ["Greater than or equal to its children", "Smaller than its children", "Equal to root", "None of these"],
-    "answer": "Greater than or equal to its children"
+    "question": "Which of the following correctly defines a destructor in C++?",
+    "options": ["~ClassName()", "ClassName()", "void ~ClassName()", "delete ClassName()"],
+    "answer": "~ClassName()"
   },
   {
     "_id": "11",
-    "question": "Which traversal method is used to get a sorted sequence from a Binary Search Tree?",
-    "options": ["Preorder", "Inorder", "Postorder", "Level Order"],
-    "answer": "Inorder"
+    "question": "Predict the output:\n\nint main(){\n    int x = 10;\n    if(x = 5) cout << x;\n    else cout << 0;\n}",
+    "options": ["5", "10", "0", "Error"],
+    "answer": "5"
   },
   {
     "_id": "12",
-    "question": "The worst-case time complexity of Quick Sort is:",
-    "options": ["O(n log n)", "O(n²)", "O(n)", "O(log n)"],
-    "answer": "O(n²)"
+    "question": "Which of the following is not an OOP concept?",
+    "options": ["Abstraction", "Encapsulation", "Recursion", "Polymorphism"],
+    "answer": "Recursion"
   },
   {
     "_id": "13",
-    "question": "Which of the following is used to detect a cycle in a graph?",
-    "options": ["BFS", "DFS", "Heap", "Stack"],
-    "answer": "DFS"
+    "question": "In Python, what is the result of:\n\nprint('A' * 3)",
+    "options": ["AAA", "Error", "A3", "['A','A','A']"],
+    "answer": "AAA"
   },
   {
     "_id": "14",
-    "question": "What is the auxiliary space complexity of iterative binary search?",
-    "options": ["O(n)", "O(1)", "O(log n)", "O(n log n)"],
-    "answer": "O(1)"
+    "question": "What will be the output of the following Java code?\n\nSystem.out.println(10 + 20 + \"Java\" + 30 + 40);",
+    "options": ["Java3040", "30Java3040", "30Java70", "3Java3040"],
+    "answer": "30Java3040"
   },
   {
     "_id": "15",
-    "question": "Which data structure provides the fastest lookup in average case?",
-    "options": ["Array", "Linked List", "Hash Table", "Binary Tree"],
-    "answer": "Hash Table"
+    "question": "In C++, which access specifier makes class members accessible only to derived classes?",
+    "options": ["private", "protected", "public", "friend"],
+    "answer": "protected"
   },
   {
     "_id": "16",
-    "question": "Which of the following is a non-linear data structure?",
-    "options": ["Array", "Stack", "Queue", "Tree"],
-    "answer": "Tree"
+    "question": "What is printed by this code?\n\nint arr[] = {1,2,3};\ncout << *(arr+1);",
+    "options": ["1", "2", "3", "Error"],
+    "answer": "2"
   },
   {
     "_id": "17",
-    "question": "What is the maximum number of edges in a simple undirected graph with N vertices?",
-    "options": ["N²", "N(N-1)", "N(N-1)/2", "2N"],
-    "answer": "N(N-1)/2"
+    "question": "Which operator cannot be overloaded in C++?",
+    "options": ["==", "()", "::", "+"],
+    "answer": "::"
   },
   {
     "_id": "18",
-    "question": "Which traversal of a binary tree uses a queue?",
-    "options": ["Preorder", "Inorder", "Postorder", "Level Order"],
-    "answer": "Level Order"
+    "question": "In Python, which method returns the number of elements in a list?",
+    "options": ["length()", "size()", "count()", "len()"],
+    "answer": "len()"
   },
   {
     "_id": "19",
-    "question": "In which case does a hash table experience collisions?",
-    "options": ["Two keys have same hash value", "All keys are unique", "Load factor is 0", "Hash function is injective"],
-    "answer": "Two keys have same hash value"
+    "question": "What will be printed?\n\n#include <iostream>\nusing namespace std;\nint main(){\n    for(int i=0;i<3;i++){\n        static int x = 0;\n        x++;\n        cout << x << \" \";\n    }\n}",
+    "options": ["1 1 1", "1 2 3", "3 3 3", "0 1 2"],
+    "answer": "1 2 3"
   },
   {
     "_id": "20",
-    "question": "Which of the following algorithms can detect negative weight cycles?",
-    "options": ["Dijkstra", "Kruskal", "Bellman-Ford", "Prim"],
-    "answer": "Bellman-Ford"
+    "question": "Which concept allows the same function name in base and derived classes?",
+    "options": ["Encapsulation", "Function Overriding", "Abstraction", "Constructor Chaining"],
+    "answer": "Function Overriding"
   },
   {
     "_id": "21",
-    "question": "Which operation is not possible in a queue?",
-    "options": ["Insertion at front", "Insertion at rear", "Deletion from front", "Traversal"],
-    "answer": "Insertion at front"
+    "question": "In Java, which keyword is used to inherit a class?",
+    "options": ["extends", "implements", "inherits", "super"],
+    "answer": "extends"
   },
   {
     "_id": "22",
-    "question": "In which traversal of a binary tree are the left and right subtrees visited before the root?",
-    "options": ["Inorder", "Preorder", "Postorder", "Level Order"],
-    "answer": "Postorder"
+    "question": "What will be the output of:\n\nprint(type(3/2))",
+    "options": ["<class 'int'>", "<class 'float'>", "<class 'double'>", "Error"],
+    "answer": "<class 'float'>"
   },
   {
     "_id": "23",
-    "question": "Which data structure is used to evaluate a postfix expression?",
-    "options": ["Stack", "Queue", "Tree", "Graph"],
-    "answer": "Stack"
+    "question": "Which of the following statements about virtual functions in C++ is true?",
+    "options": ["They cannot be overridden", "They support runtime polymorphism", "They are static", "They cannot be pure"],
+    "answer": "They support runtime polymorphism"
   },
   {
     "_id": "24",
-    "question": "Which of the following is true about adjacency matrix representation of a graph?",
-    "options": [
-      "Takes O(V+E) space",
-      "Takes O(V²) space",
-      "Cannot represent directed graphs",
-      "Efficient for sparse graphs"
-    ],
-    "answer": "Takes O(V²) space"
+    "question": "What will be the output of this code?\n\nx = 10\ny = 20\nprint(x and y)\n",
+    "options": ["True", "False", "10", "20"],
+    "answer": "20"
   },
   {
     "_id": "25",
-    "question": "Which algorithm is best for finding Minimum Spanning Tree if the graph is dense?",
-    "options": ["Kruskal’s Algorithm", "Prim’s Algorithm", "Bellman-Ford", "Dijkstra’s"],
-    "answer": "Prim’s Algorithm"
+    "question": "In C++, what is the output of:\n\nint a = 5;\ncout << a++ + ++a;",
+    "options": ["10", "11", "12", "Undefined behavior"],
+    "answer": "Undefined behavior"
   },
   {
     "_id": "26",
-    "question": "What is the time complexity of inserting an element in a binary search tree (average case)?",
-    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
-    "answer": "O(log n)"
+    "question": "Which of the following correctly defines polymorphism?",
+    "options": ["Ability of a function to take multiple forms", "Binding data and methods together", "Hiding implementation", "Creating multiple objects"],
+    "answer": "Ability of a function to take multiple forms"
   },
   {
     "_id": "27",
-    "question": "Which sorting algorithm always divides the list into two halves?",
-    "options": ["Quick Sort", "Heap Sort", "Merge Sort", "Selection Sort"],
-    "answer": "Merge Sort"
+    "question": "What will be printed by this Java code?\n\nSystem.out.println(10 + \"20\" + 30);",
+    "options": ["60", "102030", "1030", "3030"],
+    "answer": "102030"
   },
   {
     "_id": "28",
-    "question": "Which of the following is a characteristic of a greedy algorithm?",
-    "options": ["Global optimization", "Dynamic choices", "Local optimization", "Recursive calls"],
-    "answer": "Local optimization"
+    "question": "In Python, what will be printed by:\n\na = [1,2,3]\nb = a\na.append(4)\nprint(b)",
+    "options": ["[1,2,3]", "[1,2,3,4]", "Error", "None"],
+    "answer": "[1,2,3,4]"
   },
   {
     "_id": "29",
-    "question": "Which of these data structures is best suited for implementing undo operations?",
-    "options": ["Queue", "Array", "Stack", "Heap"],
-    "answer": "Stack"
+    "question": "Which of the following concepts in OOP hides unnecessary details from the user?",
+    "options": ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+    "answer": "Abstraction"
   },
   {
     "_id": "30",
-    "question": "Which of the following trees is a height-balanced binary tree?",
-    "options": ["Binary Search Tree", "AVL Tree", "Threaded Tree", "Expression Tree"],
-    "answer": "AVL Tree"
+    "question": "What will be printed by this C++ code?\n\nint main(){\n    int x = 10;\n    int &ref = x;\n    ref++;\n    cout << x;\n}",
+    "options": ["9", "10", "11", "Error"],
+    "answer": "11"
   }
 ]

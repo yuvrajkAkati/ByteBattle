@@ -13,7 +13,7 @@ import { GridBackground } from "../components/ui/grid-background";
 const events = [
   {
     title: "Registration Opens",
-    date: "2025-11-01",
+    date: "2025-11-1",
     mode: "Online",
     details: "Registration portal opens for Hackathon 2026.",
     extra: ["All team leaders must register", "Max 4 members per team", "Free registration"],
@@ -23,7 +23,7 @@ const events = [
   },
   {
     title: "Hackathon 2026 Launch Meetup",
-    date: "2025-11-15",
+    date: "2026-01-05",
     mode: "Virtual",
     details: "Kickoff session and event briefing",
     extra: ["Event overview", "Q&A session", "Meet the organizers"],
@@ -33,7 +33,7 @@ const events = [
   },
   {
     title: "Online Assessment Round",
-    date: "2025-11-15",
+    date: "2026-01-14",
     mode: "Online Test",
     details: "MCQ + coding screening test",
     extra: ["MCQs", "Coding section", "40 minute duration"],
@@ -43,7 +43,7 @@ const events = [
   },
   {
     title: "AI/ML Bootcamp",
-    date: "2026-01-20",
+    date: "2026-01-16",
     mode: "In-person",
     details: "Hands-on sessions at NIT Silchar",
     extra: ["Deep Learning", "ML Projects", "Career guidance"],
@@ -53,7 +53,7 @@ const events = [
   },
   {
     title: "Team Networking Session",
-    date: "2026-02-10",
+    date: "2026-01-30",
     mode: "In-person",
     details: "Meet other teams & share ideas",
     extra: ["Ice breaking", "Idea exchange", "Team collaboration"],
@@ -63,7 +63,7 @@ const events = [
   },
   {
     title: "Round 2 Submission Deadline",
-    date: "2026-02-10",
+    date: "2026-02-06",
     mode: "Online",
     details: "Submit your project for Round 2 evaluation",
     extra: ["Submit code", "Add documentation", "Upload demo"],
@@ -73,7 +73,7 @@ const events = [
   },
   {
     title: "Final Round — Hackathon 2026",
-    date: "2026-02-28",
+    date: "2026-02-25",
     mode: "On-Campus",
     details: "Live finale & project presentations",
     extra: ["48hr hackathon", "Judging round", "Final presentations"],
@@ -375,13 +375,7 @@ export default function EventsRoadmap() {
                                   </SignedIn>
                                 </>
                               ) : (
-                                <SignedIn>
-                                  <a href={ev.targetUrl}>
-                                    <button className="bg-green-600 px-4 py-2 rounded-md text-xs font-medium hover:bg-green-500 transition">
-                                      {ev.targetLabel}
-                                    </button>
-                                  </a>
-                                </SignedIn>
+                                <></>
                               )}
                             </>
                           )}
